@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    gap: 8px;
+}
+
+.app {
+    width: 550px;
+    height: 500px;
+    border: 5px solid rgb(9, 8, 65);
+    background-color: rgb(9, 8, 65);
+    border-radius: 8px;
+    padding: 15px;
+    color: white;
+    margin-left: 550px;
+    margin-top: 20px;
+    gap: 50px;
+    overflow-y: scroll;
+    box-shadow: 1px 5px 9px 1px rgb(47, 45, 50);
+}
+
+.app::-webkit-scrollbar {
+    display: none;
+}
+
+#createTask {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    left: 0;
+    bottom: 0px;
+    width: 33.5%;
+    background-color: white;
+    color: white;
+    text-align: center;
+    margin-left: 550px;
+}
+
+#createTask1 {
+    color: white;
+    margin-left: 551px;
+    background-color: red;
+    padding-left: 190px;
+    width: 22%;
+    background-color: rgb(95, 123, 200);
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.fa-plus {
+    background-color: rgb(95, 123, 200);
+    border-radius: 7px;
+    font-size: 25px;
+    border: solid rgb(95, 123, 200);
+    border-width: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 213%;
+    
+}
+
+#task {
+    display: grid;
+    gap: 14px;
+    font-size: 25px;
+}
+
+#task div {
+    background-color: rgb(40, 88, 156);
+    border: 3px solid rgb(236, 240, 246);
+    padding: 5px;
+    padding-bottom: -20px;
+    border-radius: 6px;
+    display: grid;
+    gap: 5px;
+}
+
+.crud i {
+    cursor: pointer;
+}
+
+.crud {
+    justify-self: right;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#alert {
+    color: red;
+}
+
+.heading1 h4 {
+    background-color: rgb(95, 123, 200);
+    text-align: center;
+    color: white;
+
+}
+
+.font {
+    font-size: 20px;
+    font-family: comics, cursive;
+}
+
+.options {
+    display: grid;
+    gap: 5px;
+}
